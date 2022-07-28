@@ -1,0 +1,11 @@
+body{
+    font-family: 'PT Serif', serif;
+}
+
+.bg-navbar{
+    background-color: rgb(255 192 23);
+}
+
+.border-navbar{
+    border-bottom: 1px solid rgb(41 41 41);
+}
