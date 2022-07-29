@@ -9,3 +9,7 @@ body{
 .border-navbar{
     border-bottom: 1px solid rgb(41 41 41);
 }
+
+.aside-buttons > li{
+    margin-bottom: 10px;
+}
