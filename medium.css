@@ -1,5 +1,27 @@
 body{
-    font-family: 'PT Serif', serif;
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid rgb(41 41 41);
+    background-color: rgb(255 192 23);
+    max-width: 1360px;
+    line-height: 1.6;
+    padding: 0 70px;
+    transition: all 0.3s;
+}
+
+.white{
+    position:fixed;
+    border-bottom: 1px solid rgb(41 41 41);
+    background-color: white;
+    top: 0;
+    max-width: 1360px;
+    line-height: 1.6;
+    padding: 0 70px;
+    transition: background-color 300ms linear;
 }
 
 .bg-navbar{
@@ -12,4 +34,14 @@ body{
 
 .aside-buttons > li{
     margin-bottom: 10px;
+}
+
+.marka{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.icon{
+    font-size: 30px;
 }
